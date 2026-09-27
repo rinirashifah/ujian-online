@@ -1,0 +1,117 @@
+{
+  "soal": [
+    {
+      "id": "soal_seed1",
+      "tipe": "pilihan_ganda",
+      "pertanyaan": "Apa yang dimaksud dengan algoritma?",
+      "opsi": [
+        "Bahasa pemrograman",
+        "Langkah-langkah sistematis untuk menyelesaikan masalah",
+        "Perangkat keras komputer",
+        "Sistem operasi"
+      ],
+      "jawabanBenar": 1,
+      "poin": 10,
+      "topik": "Pengetahuan Umum",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "soal_seed2",
+      "tipe": "pilihan_ganda",
+      "pertanyaan": "Hasil dari 12 x 8 adalah?",
+      "opsi": [
+        "86",
+        "96",
+        "106",
+        "108"
+      ],
+      "jawabanBenar": 1,
+      "poin": 10,
+      "topik": "Matematika",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "soal_seed3",
+      "tipe": "pilihan_ganda",
+      "pertanyaan": "Manakah yang merupakan gas rumah kaca utama?",
+      "opsi": [
+        "Oksigen",
+        "Nitrogen",
+        "Karbon dioksida",
+        "Argon"
+      ],
+      "jawabanBenar": 2,
+      "poin": 10,
+      "topik": "IPA",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "soal_seed4",
+      "tipe": "esai",
+      "pertanyaan": "Jelaskan secara singkat dampak perubahan iklim terhadap ketahanan pangan.",
+      "poin": 20,
+      "topik": "IPA",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    }
+  ],
+  "ujian": [
+    {
+      "id": "ujian_msmqhnp4j5nmzh",
+      "token": "MH7V2G",
+      "judul": "UAS IPA ",
+      "deskripsi": "Baca dengan teliti ",
+      "durasiMenit": 30,
+      "soalIds": [
+        "soal_seed1",
+        "soal_seed3",
+        "soal_seed4"
+      ],
+      "acakSoal": true,
+      "tampilkanHasil": true,
+      "createdAt": "2026-08-10T04:31:05.272Z"
+    },
+    {
+      "id": "ujian_seed1",
+      "token": "DEMO26",
+      "judul": "Ujian Latihan - Pengetahuan Umum",
+      "deskripsi": "Ujian contoh untuk mencoba alur peserta.",
+      "durasiMenit": 15,
+      "soalIds": [
+        "soal_seed1",
+        "soal_seed2",
+        "soal_seed3",
+        "soal_seed4"
+      ],
+      "acakSoal": false,
+      "tampilkanHasil": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "attempt_msmqil9jtzms6j",
+      "ujianId": "ujian_msmqhnp4j5nmzh",
+      "namaPeserta": "Rini Rashifah",
+      "mulaiPada": "2026-08-10T04:31:48.775Z",
+      "batasWaktu": "2026-08-10T05:01:48.775Z",
+      "jawaban": [
+        {
+          "soalId": "soal_seed1",
+          "jawabanIndex": 1
+        },
+        {
+          "soalId": "soal_seed3",
+          "jawabanIndex": 2
+        },
+        {
+          "soalId": "soal_seed4",
+          "jawabanTeks": "kk"
+        }
+      ],
+      "status": "selesai",
+      "selesaiPada": "2026-08-10T04:32:12.856Z",
+      "skor": 20,
+      "skorMaksimal": 40
+    }
+  ]
+}
